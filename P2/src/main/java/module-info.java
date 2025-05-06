@@ -10,6 +10,7 @@ module mainfolder.p2 {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.sql;
 
     opens mainfolder.p2 to javafx.fxml;
     exports mainfolder.p2;
