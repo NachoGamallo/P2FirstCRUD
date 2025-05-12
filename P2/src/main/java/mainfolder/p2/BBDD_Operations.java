@@ -7,22 +7,13 @@ public class BBDD_Operations {
 
     public class Main {
 
-        public static void main(String[] args) {
-
-            Connection bd = conexion();
-            System.out.println("Realizando consultas...");
-            consulta(bd);
-            desconectar(bd);
-
-        }
-
         public static Connection conexion(){
 
             Connection conexion;
             String host = "jdbc:mariadb://localhost:3307/";
             String user = "root";
             String psw = "";
-            String bd = "nombre";
+            String bd = "pactica2";
             System.out.println("Conectando...");
 
             try {
@@ -128,5 +119,4 @@ public class BBDD_Operations {
 
         }
     }
-
 }

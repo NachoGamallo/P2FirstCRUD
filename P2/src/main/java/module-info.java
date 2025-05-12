@@ -11,6 +11,8 @@ module mainfolder.p2 {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
     requires java.sql;
+    requires com.fasterxml.jackson.annotation;
+    requires static lombok;
 
     opens mainfolder.p2 to javafx.fxml;
     exports mainfolder.p2;
